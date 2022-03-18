@@ -1,0 +1,8 @@
+Dynamic addition of 2 no...
+
+
+a=int(input("enter a no: "))
+b=int(input("enter a no: "))
+addition=(a+b)
+print(addition)
+print(type(addition))
