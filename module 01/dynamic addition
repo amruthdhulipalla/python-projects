@@ -1,0 +1,155 @@
+Dynamic addition of 2 no...
+a=int(input("enter a no: "))
+b=int(input("enter a no: "))
+addition=(a+b)
+print(addition)
+print(type(addition))
+enter a no: 10
+enter a no: 20
+30
+<class 'int'>
+
+
+Dynamic multipication of 2 no..
+a=int(input("enter a no: "))
+b=int(input("enter a no: "))
+multiplication=(a*b)
+print(multiplication)
+print(type(multiplication))
+enter a no: 20
+enter a no: 30
+600
+<class 'int'>
+
+
+Dynamic add 3 no..
+a=int(input("enter a no: "))
+b=int(input("enter a no: "))
+c=int(input("enter a no: "))
+addition=(a+b+c)
+print(addition)
+print(type(addition))
+enter a no: 20
+enter a no: 10
+enter a no: 20
+50
+<class 'int'>
+
+
+
+Dynamic multi 3 no..
+a=int(input("enter a no: "))
+b=int(input("enter a no: "))
+c=int(input("enter a no: "))
+multi=(a*b*c)
+print(multi)
+print(type(multi))
+enter a no: 10
+enter a no: 10
+enter a no: 10
+1000
+<class 'int'>
+
+
+
+Dynamic avg of 3 no..
+a=int(input("enter a no: "))
+b=int(input("enter a no: "))
+c=int(input("enter a no: "))
+avg=(a+b+c)/3
+print(avg)
+print(type(avg))
+enter a no: 10
+enter a no: 10
+enter a no: 0
+6.666666666666667
+<class 'float'>
+
+
+TYPE CONVERSIONS
+1.INT TO FLOAT
+a=10
+print(type(a))
+b=float(a)
+print(type(b))
+<class 'int'>
+<class 'float'>
+
+
+2.float to int
+a=10.32
+print(type(a))
+b=int(a)
+print(type(b))
+print(b)
+<class 'float'>
+<class 'int'>
+10
+
+
+3.int to string
+a=10
+print(type(a))
+b=str(a)
+print(type(b))
+print(b)
+<class 'int'>
+<class 'str'>
+10
+
+
+4.float to string
+a=10.33
+print(type(a))
+b=str(a)
+print(type(b))
+print(b)
+<class 'float'>
+<class 'str'>
+10.33
+
+
+5.string to int
+a="10"
+print(type(a))
+b=int(a)
+print(type(b))
+print(b)
+<class 'str'>
+<class 'int'>
+10
+
+
+Boolean
+a=30
+b=20
+c=a>b
+print(bool(c))
+True
+
+
+Boolean to int
+a=bool(30)
+print(type(a))
+b=int(a)
+print(type(b))
+<class 'bool'>
+<class 'int'>
+
+
+Boolean to string
+a=bool(30)
+print(type(a))
+b=str(a)
+print(type(b))
+<class 'bool'>
+<class 'str'>
+
+
+Complex
+a=5+2j
+print(type(a))
+b=str(a)
+print(type(b))
+<class 'complex'>
+<class 'str'>
